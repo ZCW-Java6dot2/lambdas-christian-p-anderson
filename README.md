@@ -83,7 +83,7 @@ interface CheckPerson {
 Using the 3rd approach, create a branch for each of the following implementations:
 
 * Specify Search Criteria Code in a Local Class
-* Specify Search Criteria Code in an Anonymous Class
+* Specify Search Criteria Code in an LocalClass Class
 * Specify Search Criteria Code with a Lambda Expression
 
 **Don't forget your test!**
