@@ -1,4 +1,5 @@
-import java.time.LocalDate;
+
+//  https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach4
 
 public class Person {
 
@@ -52,9 +53,6 @@ public class Person {
     }
 
     public void printPerson() {
-        System.out.println(this.name);
-        System.out.println(this.birthday);
-        System.out.println(this.gender);
-        System.out.println(this.emailAddress);
+        System.out.println(this.name + " " + this.birthday + " " + this.gender + " " + this.emailAddress + "\n");
     }
 }
