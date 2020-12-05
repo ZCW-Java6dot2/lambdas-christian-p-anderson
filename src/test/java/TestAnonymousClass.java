@@ -13,7 +13,7 @@ public class TestAnonymousClass {
         Person steve = new Person("Steve", 24, Person.Sex.MALE, "sa@gmail.com");
         Person diane = new Person("Diane", 26, Person.Sex.FEMALE, null);
 
-        Anonymous.AgeChecker AgeTest = new Anonymous.AgeChecker();
+        AnonymousClass.AgeChecker AgeTest = new AnonymousClass.AgeChecker();
 
         ArrayList<Person> people = new ArrayList<>();
         people.add(john);
@@ -23,7 +23,7 @@ public class TestAnonymousClass {
 
         // GIVEN
         Integer expected = 1;
-        Integer actual = Anonymous.printPersons(people, AgeTest);
+        Integer actual = AnonymousClass.printPersons(people, AgeTest);
 
         // Then
         Assert.assertEquals(expected, actual);

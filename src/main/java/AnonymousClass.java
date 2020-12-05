@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Anonymous {
+public class AnonymousClass {
 
     public static class AgeChecker implements CheckPerson {
 
