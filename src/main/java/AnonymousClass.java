@@ -1,6 +1,4 @@
 
-//  https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach4
-
 import java.util.List;
 
 public class AnonymousClass {
