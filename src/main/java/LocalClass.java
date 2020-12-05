@@ -1,3 +1,6 @@
+
+//  https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach4
+
 import java.util.List;
 
 public class LocalClass {
@@ -20,7 +23,7 @@ public class LocalClass {
         return counter;
     }
 
-    /**
+    /*
      * This method checks each Person instance contained in the List parameter whether it satisfies the search criteria
      * specified in the CheckPerson parameter tester by invoking the method tester.test. If the method tester.test
      * returns a true value, then the method PrintPersons is invoked on the Person instance.

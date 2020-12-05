@@ -1,3 +1,6 @@
+
+//  https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach4
+
 import java.util.List;
 
 public class AnonymousClass {
@@ -23,5 +26,11 @@ public class AnonymousClass {
         }
         return counter;
     }
+
+    /*
+     * This approach reduces the amount of code required because you don't have to create a new class for each search
+     * that you want to perform. However, the syntax of anonymous classes is bulky considering that the CheckPerson
+     * interface contains only one method.
+     */
 
 }
